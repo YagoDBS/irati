@@ -38,8 +38,10 @@ header{
     text-align: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-#titulo{
+.titulo{
     text-decoration: double;
 }
 .citacao{
@@ -50,4 +52,11 @@ header{
     margin: 0.4%;
     background-color: #9DFF8A;
     box-shadow: 10px 10px 10px #08101a98;
+}
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.bottomtext{
+    border-bottom: #327026 solid 2px;
 }

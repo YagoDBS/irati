@@ -31,23 +31,23 @@ header{
     color:#9DFF8A;
 }
 .sobre{
-    padding: 100px;
+    padding: 80px;
     text-align:center;
 }
-.citacoes{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-}
-#titulo{
+.titulo{
     text-decoration: double;
+    padding-left: 10px;
 }
-.citacao{
-    float: left;
-    padding: 50px 20px;
-    width: 30%;
-    height: 80px;
-    margin: 0.4%;
-    background-color: #9DFF8A;
-    box-shadow: 10px 10px 10px #08101a98;
+.atracoes{
+    padding-left: 10px;
+}
+.aquavid{
+    padding-left:40px;
+}
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.bottomtext{
+    border-bottom: #327026 solid 2px;
 }

@@ -36,33 +36,23 @@ header{
 }
 .titulo{
     text-decoration: double;
-    padding-left: 10px;
 }
-.linha{
-    display:flex;
-    flex-direction:row;
+.sitebom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.linha figcaption::first-letter{
-    color: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#bandeira{
-    position:absolute;
-    right: 10px;
-}
-.fatos{
-    padding-top:120px;
-}
-.fatos td,th{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: black solid 1px;
-    padding: 10px;
-}
-.fatos table{
-    background-color: #64BD53;
-}
-address{
-    font-family:'Times New Roman', Times, serif;
+.sitebom a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #701B5A;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px;
+    background-color: #9DFF8A;
+    width:30%;
+    margin: 0.4%;
+    box-shadow: 10px 10px 10px #08101a98;
 }
 footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
